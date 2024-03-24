@@ -12,9 +12,15 @@ namespace ConsoleApp1
             }
 
             int sum = 0;
-            foreach (int item in numbers) // Changed variable name from number to item
+
+            foreach (int number in numbers) // Changed variable name from number to item
             {
-                sum += item;
+                sum += number;
+
+            foreach (int num in numbers) // Changed variable name from num to number
+            {
+                sum += number;
+
             }
 
             return (double)sum / numbers.Length;
